@@ -1,0 +1,20 @@
+body{
+    background-color:violet;
+
+}
+.family_names{
+    color:blueviolet;
+    font-weight:bold;
+    font-style:italic;
+}
+#camera,#result{
+    width:350px;
+    height:300px;
+    border:2px dashed black;
+}
+#take_snapshot,#take_result{
+    background-color:rosybrown;
+    font-weight:bold;
+    font-style:italic;
+    font-size:25px;
+}

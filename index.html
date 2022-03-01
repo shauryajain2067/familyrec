@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Facial recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  </head>
+  <body>
+      <center>
+<h1 class="btn btn-warning">FACIAL RECOGNITION</h1>
+<br>
+<br>
+<div id="family_members">
+    <h3 class="family_names">SHAURYA</h3>
+    <br>
+    <hr>
+    <br>
+    <h3 class="family_names">SISTER</h3>
+    <br>
+    <hr>
+    <br>
+    <h3 class="family_names">MOM</h3>
+    <br>
+    <hr>
+    <br>
+    <h3 class="family_names">DAD</h3>
+    <br>
+    <hr>
+    <br>
+</div>
+<br>
+<div id="camera">
+</div>
+<br>
+<div id="result"></div>
+<br>
+<button id="take_snapshot" onclick="snapshot()">TAKE SNAPSHOT</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button id="take_result" onclick="identify()">IDENTIFY OBJECT</button>
+<br>
+<br>
+<br>
+<span id="accuracy_holder">
+    <h3 id="object_name">OBJECT :</h3>&nbsp;&nbsp; <h3 id="object_name_result"></h3>
+
+    <br><br>
+    <h3 id="object_result">ACCURACY :</h3> &nbsp;&nbsp; <h3 id="object_result_result"></h3>
+
+</center>
+  </body>
+  </html>
